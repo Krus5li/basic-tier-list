@@ -203,12 +203,13 @@ button {
 .handle {
   flex: 0 0 auto;
   margin-right: auto;
-  color: var(--muted);
+  color: #d5dde8;
   cursor: grab;
   user-select: none;
   touch-action: none;
-  letter-spacing: -0.12em;
-  font-size: 0.9rem;
+  letter-spacing: 0.12em;
+  font-size: 1.55rem;
+  line-height: 1;
 }
 
 .card.ghost {
@@ -274,6 +275,12 @@ button {
     min-width: 44px;
     display: grid;
     place-items: center;
+  }
+
+  .card {
+    flex: 0 0 calc(50% - 4px);
+    width: calc(50% - 4px);
+    max-width: calc(50% - 4px);
   }
 
   .row {
