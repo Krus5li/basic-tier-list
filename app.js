@@ -1,5 +1,5 @@
 const STORAGE_KEY = "tier-list";
-const TIERS = ["S", "A", "B", "C", "D", "F"];
+const TIERS = ["S", "A", "B", "C", "D"];
 
 const titleInput = document.querySelector("#title");
 const addForm = document.querySelector("#add-form");
@@ -40,7 +40,7 @@ render();
 
 function defaultState() {
   return {
-    title: "My Tier List",
+    title: "ICare Downtown Tier List!",
     pool: [
       {id: "1", name: "Landing your dream job/financial security", image: ""},
       {id: "2", name: "Having an amazing friend group", image: ""},
@@ -49,7 +49,7 @@ function defaultState() {
       {id: "5", name: "A growing relationship with God", image: ""},
       {id: "6", name: "Travelling around the world", image: ""},
       {id: "7", name: "Punching a person that you really dislike :)", image: ""},
-      {id: "8", name: "Winning a lottery", image: ""},
+      {id: "8", name: "Finding a random $100 bill", image: ""},
       {id: "9", name: "Dating your ideal person", image: ""},
       {id: "10", name: "Being recognized for your hard work", image: ""}
     ],
