@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Tier List</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="top">
+    <input id="title" class="title" type="text" value="My Tier List" maxlength="80" aria-label="List title">
+    <form id="add-form" class="add-form">
+      <input id="item-name" type="text" placeholder="Item name" maxlength="160" required aria-label="Item name">
+      <button type="submit">Add</button>
+    </form>
+    <button id="clear" type="button">Clear</button>
+  </header>
+  <p id="status" class="status" role="status" hidden></p>
+  <main id="board"></main>
+  <script src="app.js"></script>
+</body>
+</html>
